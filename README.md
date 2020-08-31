@@ -10,6 +10,7 @@ In ```doc/tsp-acs.pdf``` the algorithm is described in detail and a comparison o
 
 * Felipe Ramirez
 
+
 ## Usage
 
 ```
@@ -18,3 +19,6 @@ In ```doc/tsp-acs.pdf``` the algorithm is described in detail and a comparison o
 * ```data``` is an instance of the TSP
 * ```number_of_ants``` is the number of ants to be routed
 * ```use_threads``` whether ```0``` or ```1```
+
+## Changes made to the fork
+Migrate pthread and semaphore to omp
