@@ -1,7 +1,7 @@
 CC = gcc
 
 SRC   = src/tsp-acs.c
-FLAGS = -lm -lpthread -Wall
+FLAGS = -lm -fopenmp -Wall -O3
 OUT   = tsp-acs
 
 compile:
